@@ -82,7 +82,7 @@ def main(pdf_path, query, api_key):
 if __name__ == "__main__":
     pdf_path = "test.pdf"
     query = "বাংলাদেশের স্বাধীনতা অর্জনের বছর কী ছিল?"
-    api_key = "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"  # Replace with your Hugging Face API key
+    api_key = "hf"  # Replace with your Hugging Face API key
     
     result = main(pdf_path, query, api_key)
     print("Answer:", result)
